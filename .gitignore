@@ -1,0 +1,16 @@
+# Senhas e credenciais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Arquivos temporários
+*.log
+*.zip
+node_modules/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+.vscode/

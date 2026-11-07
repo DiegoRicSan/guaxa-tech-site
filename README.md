@@ -5,7 +5,7 @@ Landing page estática para apresentar o Guaxa Tech e levar visitantes ao Telegr
 ## Antes de publicar (obrigatório)
 
 1. Abra `config.js` e preencha o campo `telegramUrl` com o link real do grupo. Use `https://t.me/...`.
-2. Troque `assets/logo-guaxa.svg` pela arte oficial da marca. **A imagem incluída no pacote é uma ilustração provisória** criada para que o site abra imediatamente. Se a logo oficial for PNG, substitua o caminho `assets/logo-guaxa.svg` nas tags `<img>`, `<link rel="icon">` e `<meta property="og:image">` do arquivo `index.html`, ou peça ajuda para fazer essa mudança.
+2. Troque `assets/logo-guaxa.png` pela arte oficial da marca. **A imagem incluída no pacote é uma ilustração provisória** criada para que o site abra imediatamente. Se a logo oficial for PNG, substitua o caminho `assets/logo-guaxa.png` nas tags `<img>`, `<link rel="icon">` e `<meta property="og:image">` do arquivo `index.html`, ou peça ajuda para fazer essa mudança.
 3. Reveja os textos antes de divulgar e confira se as informações do grupo estão corretas.
 4. Teste os botões do Telegram no celular e no computador.
 
@@ -41,6 +41,6 @@ Easypanel > `guaxa-tech` > Novo Serviço > `App` > Fonte: `Upload` > selecione o
 - `style.css`: identidade visual e responsividade.
 - `config.js`: link público do grupo.
 - `script.js`: comportamento dos links.
-- `assets/logo-guaxa.svg`: símbolo provisório.
+- `assets/logo-guaxa.png`: símbolo provisório.
 - `Dockerfile`: imagem de hospedagem Nginx na porta 8080.
 - `nginx.conf`: configuração mínima e cabeçalhos de segurança.
